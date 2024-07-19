@@ -4005,7 +4005,7 @@ input, select, textarea {
 		background-color: #21b2a6;
 		color: #fff;
 		text-decoration: none;
-		text-align: center;
+		text-align: center center;
 		border-radius: 5px;
 		transition: background-color 0.3s ease;
 	}
@@ -4014,3 +4014,27 @@ input, select, textarea {
 		background-color: #21b2a6;
 	}
 	
+	.custom-background {
+		background-color: #f0f0f03d; /* Change this to your desired background color */
+		padding: 50px 0; /* Optional: adjust padding as needed */
+	}
+	
+	.custom-background .inner {
+		max-width: 800px; /* Optional: adjust max-width as needed */
+		margin: 0 auto; /* Center the content */
+		padding: 20px; /* Optional: adjust padding as needed */
+		background: rgba(255, 255, 255, 0.459); /* Optional: change inner background */
+		border-radius: 10px; /* Optional: add rounded corners */
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.274); /* Optional: add a subtle shadow */
+	}
+	
+
+	.primary {
+    background-color: #21b2a6 !important; /* Blue color */
+    border-color: #21b2a6 !important; /* Blue border color */
+}
+
+	.primary:hover {
+    background-color: #21b2a6 !important; /* Darker blue on hover */
+    border-color: #21b2a6 !important; /* Darker border on hover */
+}

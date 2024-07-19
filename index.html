@@ -11,6 +11,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.primary {
+    background-color: #21b2a6; /* Blue color */
+    border-color: #21b2a6; /* Blue border color */
+}
+
+	.primary:hover {
+    background-color: #21b2a6; /* Darker blue on hover */
+    border-color: #21b2a6; /* Darker border on hover */
+}
+		
+		</style>
 	</head>
 	<body class="landing is-preload">
 
@@ -23,13 +35,13 @@
 						<nav id="nav">
 							<ul>
 								<li class="special">
-									
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="milestones.html">Milestones</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="Deployment.html">Deployment</a></li>
+											<li><a href="index.html" target="_blank">Home</a></li>
+											<li><a href="milestones.html" target="_blank">Milestones</a></li>
+											<li><a href="elements.html" target="_blank">Elements</a></li>
+											<li><a href="Deployment.html" target="_blank">Deployment</a></li>
 											<li><a href="#">Sign Up</a></li>
 											<li><a href="#">Log In</a></li>
 										</ul>
@@ -67,14 +79,13 @@
 							</header>
 							<a href="#three">My Projects</a>
 						</div>
-						<div class="svg-container"
+						<div class="svg-container">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 30 30" zoomAndPan="disable" preserveAspectRatio="none">
 									<style type="text/css"><![CDATA[ .line { stroke: #ffffff; stroke-width: 3; } ]]></style>
 									<line class="line" x1="0" y1="15" x2="15" y2="30" />
 									<line class="line" x1="30" y1="15" x2="15" y2="30" />
 									<line class="line" x1="15" y1="30" x2="15" y2="0" />
 								</svg>
-							</a>
 						</div>
 						
 						</div>
@@ -84,7 +95,7 @@
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/SCA.jpg" alt="" /></div><div class="content">
-								<h2>Solutions Enginer / Project Manager</h2>
+								<h2>Solutions Enginer / Project Lead</h2>
 								<p>As a Solutions Engineer in the capacity of Project Manager/Region Lead, responsibilities encompass ensuring projects achieve 100% deliverables within budget. This involves successful training implementation and direct client engagement for timely issue resolution. Mitigating risks is crucial to maintaining stakeholder retention, alongside weekly status updates with the team to keep everyone informed and aligned.</p>
 							</div>
 						</section>
@@ -112,26 +123,28 @@
 							<ul class="features">
 								
 								<li class="icon fa-paper-plane">
-									<a href="milestones.html">
+									<a href="milestones.html" target="_blank">
 									<h3>Milestone State Testing</h3>
-									<p>The Milestones Testing project met 100% of deliverables on time and within budget.
-										 </p>
+									<p>The Milestones Testing project successfully met all deliverables on time and within budget. </p>
 									</a>
-									<a href="milestones.html" class="learn-more-button">Learn More</a>
+									<a href="milestones.html" target="_blank" class="learn-more-button">Learn More</a>
 								</li>
 								<li class="icon solid fa-laptop">
+									<a href="Deployment.html" target="_blank">
 									<h3>Chromebook Deployment</h3>
-									<p>Deliver 200 managed Chromebooks to a new middle school, balancing quality with a limited budget to support seamless student learning. The project aims to complete onsite setup within three days, ensuring proper enrollment and compliance with Board of Education standards.</p>
+									<p>The Chromebook Deployment project was completed earlier than expected leading to the Stakeholders requesting another major project.</p>
+									</a>
+									<a href="Deployment.html" target="_blank" class="learn-more-button">Learn More</a>
 								</li>
 								<li class="icon solid fa-code">
 									<h3>Inaugural Knowledge Base</h3>
 									<p>Enhance employee retention and client satisfaction through the establishment of the company's first Knowledge Base, ensuring comprehensive documentation across diverse client environments. This initiative includes regular status updates with stakeholders and efficient management of a multi-functional team to maximize existing resources and fulfill primary job responsibilities without additional costs to the company.</p>
 								</li>
-								<li class="icon solid fa-headphones-alt">
+								<li class="icon solid fa-desktop">
 									<h3>Executive Laptop Replacement Project</h3>
 									<p>Promptly deliver, install, and configure a high-quality laptop for an executive experiencing hardware failure, navigating current equipment delays and shortages. The solution must align with the executive's operational requirements while adhering to budget constraints. Additionally, the project involves creating, sharing, and obtaining approval for a proposal, implementing efficient equipment tracking, and ensuring seamless configuration to minimize disruption to daily responsibilities.</p>
 								</li>
-								<li class="icon fa-heart">
+								<li class="icon solid fa-paw">
 									<h3>Greyhound Acclimation</h3>
 									<p>Monitor and acclimate retiring racing Greyhounds arriving monthly from overseas, ensuring they adjust to environmental stimuli. This includes scheduling safe evening walks and outdoor play sessions with a companion, maintaining kennel cleanliness, monitoring dog health, and providing timely reports after each activity. Coordination with the veterinary office is essential to track and report any medical updates or behavioral changes until each hound finds foster care or adoption.</p>
 								</li>
@@ -155,15 +168,46 @@
 						</div>
 					</section>
 
+					<!-- Contact -->
+					<section id="contact" class="custom-background">
+						<div class="inner">
+							<header class="major">
+								<h2>Contact Me</h2>
+								<p>Feel free to reach out using the form below.</p>
+							</header>
+							
+							<form method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSdHeybLZGhqybSL09vXl7krcaO4DnqrVaeTYhWHwNu21IRCbA/formResponse?usp=sf_link" target="_blank">
+	
+								<div class="row gtr-uniform">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="entry.2005620554" id="name" value="" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="entry.1045781291" id="email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<textarea name="entry.839337160" id="message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions special">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+
+
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
-							<li><a href="https://github.com/givanna" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/givannawright/" class="icon brands fa-linkedin"><span class="label"></span></a></li>
-							<li><a href="mailto: givannawright@gmail.com" class="icon solid fa-envelope"><span class="label">Click To Send Mail</span></a></li>
+							<li><a href="https://github.com/givanna" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/givannawright/" target="_blank" class="icon brands fa-linkedin"><span class="label"></span></a></li>
+							<li><a href="mailto: givannawright@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Click To Send Mail</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Get In Touch</li><li> </li>
+							<li>&copy;The Wright Portfolio</li><li> </li>
 						</ul>
 					</footer>
 
