@@ -4077,3 +4077,28 @@ input, select, textarea {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* Learn More Blue Button */
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #21b2a6;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    outline: none; /* Removes the default outline */
+    border: none;  /* Removes any default border */
+	margin-top: auto; /* Pushes the button to the bottom of the container */
+	justify-content: space-between; /* Align content properly */
+	
+}
+
+.learn-more-button:hover {
+    background-color: #1a9b8b; /* Slightly darker shade for hover effect */
+}
+
+
+
+
